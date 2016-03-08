@@ -1047,7 +1047,7 @@ var pucaPower = {
         this.cancelReload();
 
         // If the reloadInterval is sane, queue up a reload
-        if ( this.reloadInterval >= 20 ) {
+        if ( this.reloadInterval >= 0 ) {
             this.reloadTimeout = setTimeout(this.go.bind(this), this.reloadInterval * 1000);
             this.debug(4, 'Reload queued');
         }
