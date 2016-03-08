@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name            Puca Power
 // @version         1.4.2
-// @namespace       https://github.com/llamasoft/Puca-Power
-// @supportURL      https://github.com/llamasoft/Puca-Power
+// @namespace       https://github.com/darkside-/Puca-Power
+// @supportURL      https://github.com/darkside-/Puca-Power
 // @description     A JavaScript utility for better trading on PucaTrade.com
-// @downloadURL     https://llamasoft.github.io/Puca-Power/pucaPower.js
+// @downloadURL     https://darkside-.github.io/Puca-Power/pucaPower.js
 // @grant           unsafeWindow
 // @include         https://pucatrade.com/trades
 // @include         https://pucatrade.com/trades/
@@ -18,7 +18,7 @@ var pucaPower = {
     version: 'v1.4.2',
     updateDate: '2016-03-07',
 
-    formUrl: 'https://github.com/Darkside-/Puca-Power/blob/master/controls.html',
+    formUrl: 'https://github.com/darkside-/Puca-Power/blob/master/controls.html',
 
     // Default values for internal settings
     // If you change this structure, you need to update the following:
@@ -47,7 +47,7 @@ var pucaPower = {
             onNewOnly: false,
 
             playSound: true,
-            soundFile: 'https://llamasoft.github.io/Puca-Power/alert.mp3',
+            soundFile: 'https://darkside-.github.io/Puca-Power/alert.mp3',
 
             titleText: '\u2605 Trade alert! \u2605',
 
@@ -1275,7 +1275,7 @@ var pucaPower = {
 
             var script = document.createElement('script');
             script.type = 'text/javascript';
-            script.src  = 'https://llamasoft.github.io/Puca-Power/pucaPower.js';
+            script.src  = 'https://darkside-.github.io/Puca-Power/pucaPower.js';
             document.body.appendChild(script);
 
             return;
