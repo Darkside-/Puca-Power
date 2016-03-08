@@ -32,7 +32,7 @@ var pucaPower = {
         // NOTE: This may be different than "reload every reloadInterval seconds" because
         //   there are actions that reload the table that are beyond our control
         //   (e.g. sending a card, changing country filters, searching for a card)
-        reloadInterval: 60,
+        reloadInterval: 10,
 
         alert: {
             onBundle: true,
@@ -222,7 +222,7 @@ var pucaPower = {
         );
 
         // Don't be a menace
-        if ( this.reloadInterval < 20 ) { this.reloadInterval = 20; }
+        if ( this.reloadInterval < 5 ) { this.reloadInterval = 5; }
 
         this.alert = {
             onBundle: $('input#alertOnBundle').prop('checked'),
